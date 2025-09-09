@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shift Reduce Parser</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="controls">
+    <p>Enter grammar rules:</p>
+    <textarea id="grammar">E->E+T|T
+T->T*F|F
+F->(E)|id</textarea>
+
+    <p>Enter input string:</p>
+    <input type="text" id="string" value="id+id*id">
+
+    <button id="run">Run Parser</button>
+  </div>
+
+  <div id="output"></div>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

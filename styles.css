@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+#grammar {
+  width: 600px;
+  height: 150px;
+  padding: 8px;
+  background-color: #111;
+  color: #eee;
+  border: 1px solid #666;
+  font-family: monospace;
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#string {
+  width: 400px;
+  padding: 6px;
+  background-color: #111;
+  color: #eee;
+  border: 1px solid #666;
+  font-family: monospace;
+  margin-bottom: 15px;
+}
+
+button,
+select {
+  padding: 6px 14px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+button:hover,
+select:hover {
+  background-color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 900px;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #111;
+  color: #eee;
+  border: 1px solid #666;
+}
+
+th,
+td {
+  border: 1px solid #666;
+  padding: 10px 14px;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+tr:hover {
+  background-color: #222;
+}
+
+tr.accept td {
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+tr.reject td {
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+}
